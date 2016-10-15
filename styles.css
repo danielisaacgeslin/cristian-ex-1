@@ -1,0 +1,55 @@
+body, div {
+  margin:0;
+  padding: 0;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+h2, h4 {
+  color: red;
+}
+
+p span {
+  color: brown;
+}
+
+span {
+  color: red;
+}
+
+.super-span {
+  display: block;
+  color:blue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#unico-algo {
+  color: purple;
+}
+
+/*
+  prioridades y selectores
+  #asd -> ID
+  .asd -> clase
+  asd -> tag
+*/
+
+.column {
+  display: inline-block;
+  width: 33%;
+  height: 100px;
+}
+
+.column-1 {
+  background-color: red;
+}
+.column-2 {
+  background-color: blue;
+}
+.column-3 {
+  background-color: black;
+}
